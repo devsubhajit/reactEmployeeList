@@ -1,0 +1,17 @@
+.cardConainer {
+    padding-bottom:1rem; 
+}
+.cardButtons {
+    float: right;
+    margin-right: 0.4rem;
+    font-size:0.7rem; 
+}
+
+.formConent {
+    position: fixed;
+    top:0; 
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}

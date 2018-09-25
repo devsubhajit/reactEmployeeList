@@ -1,0 +1,46 @@
+.card {
+    margin-top:1rem; 
+}
+.card.active {
+    background-color: #2e2d2d;
+}
+.card.active * {
+    color:#fff !important;
+}
+.cardImg {
+    width: 70px; 
+    height: 70px;
+    float: left;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: rgb(90, 32, 250);
+    color:#fff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 1.6rem;
+}
+.cardDetails {
+    float: right;
+    width: calc(100% - 70px);
+}
+.cardDetails p {
+    margin-bottom:0; 
+    text-indent: 1rem;
+}
+.cardDetails .cardName {
+    font-size: 1.4rem;
+    color: #2e2d2d;
+}
+.cardDetails .designation {
+    font-size: 0.8rem;
+    color: #2e2d2d;
+}
+.cardDetails .contact {
+    font-size: 0.8rem;
+    color: #585757;
+}
+.cardBtnContainer {
+    overflow: hidden;
+    width: 100%;
+    padding-top:10px;
+}
